@@ -10,7 +10,6 @@ namespace MostCommonWords
         static void Main()
         {
             Dictionary<string, int> NumberOfWords = new Dictionary<string, int>();
-            Dictionary<string, int> OrderedNumberOfWords = new Dictionary<string, int>();
 
             string Story = @"I went to Ellston Beach not only for the pleasures of sun and ocean, but to rest a weary mind. Since I knew no person in the little town, which thrives on summer vacationists and presents only blank windows during most of the year, there seemed no likelihood that I might be disturbed. This pleased me, for I did not wish to see anything but the expanse of pounding surf and the beach lying before my temporary home.
      My long work of the summer was completed when I left the city, and the large mural design produced by it had been entered in the contest. It had taken me the bulk of the year to finish the painting, and when the last brush was cleaned I was no longer reluctant to yield to the claims of health and find rest and seclusion for a time. Indeed, when I had been a week on the beach I recalled only now and then the work whose success had so recently seemed all-important. There was no longer the old concern with a hundred complexities of colour and ornament; no longer the fear and mistrust of my ability to render a mental image actual, and turn by my own skill alone the dim-conceived idea into the careful draught of a design. And yet that which later befell me by the lonely shore may have grown solely from the mental constitution behind such concern and fear and mistrust. For I have always been a seeker, a dreamer, and a ponderer on seeking and dreaming; and who can say that such a nature does not open latent eyes sensitive to unsuspected worlds and orders of being?
@@ -82,9 +81,19 @@ namespace MostCommonWords
                     NumberOfWords.Add(word, 1);
                 }
             }
+
+            var sortedDictionary = (from entry in NumberOfWords
+                                    orderby entry.Value
+                                    descending
+                                    select entry).ToDictionary
+                                    (
+                                        pair => pair.Key,
+                                        pair => pair.Value
+                                    ).Take(5);
+
             Console.WriteLine("Words sorted by frequency of appearance");
             Console.WriteLine("===============");
-            foreach (KeyValuePair<string, int> word in NumberOfWords.OrderByDescending(key => key.Value))
+            foreach (KeyValuePair<string, int> word in sortedDictionary)
             {
                 Console.WriteLine("{0}: {1}", word.Key, word.Value);
             }
