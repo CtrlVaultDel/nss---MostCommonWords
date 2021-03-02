@@ -82,6 +82,9 @@ namespace MostCommonWords
                 }
             }
 
+            // Sort the dictionary "NumberOfWords" by descending order
+            // and save the top 5 key:value pairs and save them
+            // in sortedDictionary
             var sortedDictionary = (from entry in NumberOfWords
                                     orderby entry.Value
                                     descending
@@ -93,6 +96,8 @@ namespace MostCommonWords
 
             Console.WriteLine("Words sorted by frequency of appearance");
             Console.WriteLine("===============");
+
+            // Print out the key:value pairs stored in sortedDictionary
             foreach (KeyValuePair<string, int> word in sortedDictionary)
             {
                 Console.WriteLine("{0}: {1}", word.Key, word.Value);
