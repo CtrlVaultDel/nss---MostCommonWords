@@ -1,0 +1,16 @@
+C:\Users\Nedas\workspace\backend\MostCommonWords\bin\Debug\net5.0\MostCommonWords.exe
+C:\Users\Nedas\workspace\backend\MostCommonWords\bin\Debug\net5.0\MostCommonWords.deps.json
+C:\Users\Nedas\workspace\backend\MostCommonWords\bin\Debug\net5.0\MostCommonWords.runtimeconfig.json
+C:\Users\Nedas\workspace\backend\MostCommonWords\bin\Debug\net5.0\MostCommonWords.runtimeconfig.dev.json
+C:\Users\Nedas\workspace\backend\MostCommonWords\bin\Debug\net5.0\MostCommonWords.dll
+C:\Users\Nedas\workspace\backend\MostCommonWords\bin\Debug\net5.0\ref\MostCommonWords.dll
+C:\Users\Nedas\workspace\backend\MostCommonWords\bin\Debug\net5.0\MostCommonWords.pdb
+C:\Users\Nedas\workspace\backend\MostCommonWords\obj\Debug\net5.0\MostCommonWords.csprojAssemblyReference.cache
+C:\Users\Nedas\workspace\backend\MostCommonWords\obj\Debug\net5.0\MostCommonWords.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nedas\workspace\backend\MostCommonWords\obj\Debug\net5.0\MostCommonWords.AssemblyInfoInputs.cache
+C:\Users\Nedas\workspace\backend\MostCommonWords\obj\Debug\net5.0\MostCommonWords.AssemblyInfo.cs
+C:\Users\Nedas\workspace\backend\MostCommonWords\obj\Debug\net5.0\MostCommonWords.csproj.CoreCompileInputs.cache
+C:\Users\Nedas\workspace\backend\MostCommonWords\obj\Debug\net5.0\MostCommonWords.dll
+C:\Users\Nedas\workspace\backend\MostCommonWords\obj\Debug\net5.0\ref\MostCommonWords.dll
+C:\Users\Nedas\workspace\backend\MostCommonWords\obj\Debug\net5.0\MostCommonWords.pdb
+C:\Users\Nedas\workspace\backend\MostCommonWords\obj\Debug\net5.0\MostCommonWords.genruntimeconfig.cache
